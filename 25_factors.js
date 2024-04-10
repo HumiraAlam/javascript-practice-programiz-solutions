@@ -1,11 +1,9 @@
-//JavaScript Program to Find the Factors of a Number
+//JavaScript Program to Find Sum of Natural Numbers Using Recursion
 
-let num=12;
-let factors;
-for(i=1;i<=num;i++){
+
+var num=6;
+for (i=1;i<=num;i++){
     if(num%i==0){
         console.log(i)
-
     }
-    
 }
