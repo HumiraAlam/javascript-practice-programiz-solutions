@@ -9,17 +9,19 @@ function primeNum(num){
     }else if (num==2) {
         return "prime"
     }
-    else if(num>2){
-        for(i=2;i<=num;i++){
-            if(num%i==0){
+    else {
+        for(i=2;i<Math.sqrt(num);i++){
+            if(num % i=== 0){
                 return "not Prime"
                 break
-            }else{
-                return "prime"
             }
+            
         }
+        
     }
+    
 }
 
-var result=primeNum(101)
+var result=primeNum(9)
 console.log(`Number is ${result}`)
+

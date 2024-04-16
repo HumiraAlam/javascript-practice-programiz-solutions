@@ -1,9 +1,12 @@
 //JavaScript Program to Find Factorial of Number Using Recursion
 
-var num=5;
-var factorial=1;
-for(n=1;n<=num;n++){
-    factorial*=n
+function factorial(n){
+    
+    if(n==0|| n==1){
+        return 1
 
+    }else{
+        return n* factorial(n-1)
+    }
 }
-console.log(factorial)
+console.log(factorial(5))

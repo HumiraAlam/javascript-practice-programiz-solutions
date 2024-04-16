@@ -23,4 +23,4 @@ function primeNum(num1,num2){
     }
 
 }
-primeNum(9,20)
+primeNum(1,10)
